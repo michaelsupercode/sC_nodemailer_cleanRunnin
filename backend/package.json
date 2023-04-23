@@ -1,5 +1,5 @@
 {
-  "name": "backend_day15_nodemailer",
+  "name": "nodemailer",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "keywords": [
     "sending emails"
   ],
-  "author": "Ahmed Nasr",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
