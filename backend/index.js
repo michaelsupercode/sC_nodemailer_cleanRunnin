@@ -4,7 +4,7 @@ const { nanoid } = require("nanoid")
 
 const { sendEmail } = require("./sendEmail");
 
-const PORT = 9000
+const PORT = 6099
 const app = express()
 
 const usersArray = [
