@@ -3,7 +3,7 @@ import { useEffect } from "react";
 const CommunityList = (props) => {
 
     useEffect(() => {
-        fetch("http://localhost:9000/users")
+        fetch("http://localhost:6099/users")
         .then(response => response.json())
         .then(glitterForceUserListe => props.setGlitterUsers(glitterForceUserListe))
     
