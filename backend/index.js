@@ -10,15 +10,15 @@ const app = express()
 const usersArray = [
     {
         id: nanoid(),
-        name: "",
-        email: ""
+        name: "Romy",
+        email: "schneider@carre.fr"
     }
 ]
 
 app.use(cors())
 app.use(express.json())
 
-app.get("/", (_, res) => res.send("it fuckin`works :)"));
+app.get("/", (_, res) => res.send("do U see me naked??:)"));
 
 app.get("/users", (req, res) => {
     res.json(usersArray)
@@ -56,4 +56,4 @@ app.post("/users/registerUser", (req, res) => {
     })
 })
 
-app.listen(PORT, () => console.log("Server listening on port", PORT))
+app.listen(PORT, () => console.log("serving at...", PORT))

@@ -18,7 +18,8 @@
     "express": "^4.19.2",
     "mailtrap": "^3.3.0",
     "nanoid": "^3.3.7",
-    "nodemailer": "^6.9.13"
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.0"
   },
   "description": ""
 }
