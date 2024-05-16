@@ -9,7 +9,7 @@ const JoinCommunityForm = (props) => {
     const joinGlitterForce = (event) => {
         event.preventDefault()
 
-        fetch("http://localhost:6099/users/registerUsers", {
+        fetch("http://localhost:6099/users/registerUser", {
             method: "post",
             headers: {
                 "Content-Type": "application/json"

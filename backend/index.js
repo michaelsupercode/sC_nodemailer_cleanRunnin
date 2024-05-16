@@ -11,12 +11,14 @@ const usersArray = [
     {
         id: nanoid(),
         name: "Romy",
-        email: "schneider@carre.fr"
+        email: "schneider@carre.fr",
     }
 ]
 
 app.use(cors())
 app.use(express.json())
+
+app.use(express.static("uploads"))
 
 app.get("/", (_, res) => res.send("do U see me naked??:)"));
 
@@ -45,8 +47,8 @@ app.post("/users/registerUser", (req, res) => {
     }
 
     sendEmail({
-        to: email,
-        subject: "",
+        to: 'mdens@gmx.net',
+        subject: "Hey M, we've to talk about that business..",
         message: welcomeMessage(name)
     }).then(() => {
         usersArray.push(newUser)
