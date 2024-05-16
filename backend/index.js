@@ -47,8 +47,8 @@ app.post("/users/registerUser", (req, res) => {
     }
 
     sendEmail({
-        to: 'dueto@gmail.com',
-        subject: "emergency",
+        to: 'tsvjesingen@web.de',
+        subject: "hey..",
         message: welcomeMessage(name)
     }).then(() => {
         usersArray.push(newUser)

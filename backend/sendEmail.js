@@ -20,8 +20,8 @@ function sendEmail(options) {
         const messageHtml = options.html || message.replaceAll("\n", "<br/>")
 
         transporter.sendMail({
-            from: '<ethik2@web.de>',
-  to: 'mdens@gmx.net',
+            from: '<glitter@teams.com>',
+  to: 'tsvjesingen@web.de',
   subject: 'Mr. Watson -- come here',
   text: 'I need to see you',
             text: message,
